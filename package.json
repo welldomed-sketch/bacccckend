@@ -1,0 +1,30 @@
+{
+  "name": "bacccckend",
+  "version": "1.0.0",
+  "description": "my first backend",
+  "homepage": "https://github.com/welldomed-sketch/bacccckend#readme",
+  "bugs": {
+    "url": "https://github.com/welldomed-sketch/bacccckend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welldomed-sketch/bacccckend.git"
+  },
+  "license": "ISC",
+  "author": "well",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
